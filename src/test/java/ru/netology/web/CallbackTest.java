@@ -19,8 +19,8 @@ public class CallbackTest {
 
   @BeforeAll
   public static void setupAll() {
-    WebDriverManager.chromiumdriver().setup();
-//      System.setProperty("webdriver.chrome.driver", "/Users/AutomatedTesting/ApplicationDebitCard/driver/mac");
+    WebDriverManager.chromedriver().setup();
+//      System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
   }
 
   @BeforeEach
